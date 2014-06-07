@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BibliTeo.xsd" version="1.0">
+ <lending id="dvd_serie_dune_eric_kingsley_2012-01-24">
+	<item>dvd_serie_dune</item>
+	<borrower>eric_kingsley</borrower>
+	<lendingDate>2012-01-24T00:00:00</lendingDate>
+	<returnDate>2012-03-06T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_serie_dune_luc_marchand_2012-01-24">
+	<item>dvd_serie_dune</item>
+	<borrower>luc_marchand</borrower>
+	<lendingDate>2012-01-24T00:00:00</lendingDate>
+	<returnDate>2012-02-24T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_serie_children_of_dune_luc_marchand_2012-01-24">
+	<item>dvd_serie_children_of_dune</item>
+	<borrower>luc_marchand</borrower>
+	<lendingDate>2012-01-24T00:00:00</lendingDate>
+	<returnDate>2012-02-24T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_shaun_of_the_dead_eric_larouche_2012-01-31">
+	<item>dvd_shaun_of_the_dead</item>
+	<borrower>eric_larouche</borrower>
+	<lendingDate>2012-01-31T00:00:00</lendingDate>
+	<returnDate>2012-03-09T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_hot_fuzz_eric_larouche_2012-01-31">
+	<item>dvd_hot_fuzz</item>
+	<borrower>eric_larouche</borrower>
+	<lendingDate>2012-01-31T00:00:00</lendingDate>
+	<returnDate>2012-03-09T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_the_men_who_stare_at_goats_eric_larouche_2012-01-31">
+	<item>dvd_the_men_who_stare_at_goats</item>
+	<borrower>eric_larouche</borrower>
+	<lendingDate>2012-01-31T00:00:00</lendingDate>
+	<returnDate>2012-03-09T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_office_space_eric_larouche_2012-01-31">
+	<item>dvd_office_space</item>
+	<borrower>eric_larouche</borrower>
+	<lendingDate>2012-01-31T00:00:00</lendingDate>
+	<returnDate>2012-03-09T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_the_forge_hidden_dimension_of_core_conditioning_jean-pierre_lortie_2012-03-01">
+	<item>dvd_the_forge_hidden_dimension_of_core_conditioning</item>
+	<borrower>jean-pierre_lortie</borrower>
+	<lendingDate>2012-03-01T00:00:00</lendingDate>
+	<returnDate>2012-04-09T00:00:00</returnDate>
+ </lending>
+ <lending id="dvd_super_troopers_eric_larouche_2012-11-19">
+	<item>dvd_super_troopers</item>
+	<borrower>eric_larouche</borrower>
+	<lendingDate>2012-11-19T00:00:00</lendingDate>
+ </lending>
+</transactions>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BibliTeo.xsd" version="1.0">
+	<person id="eric_kingsley">
+		<name>Eric Kingsley</name>
+	</person>
+	<person id="luc_marchand">
+		<name>Luc Marchand</name>
+	</person>
+	<person id="eric_larouche">
+		<name>Eric Larouche</name>
+	</person>
+	<person id="paul_catanu">
+		<name>Paul Catanu</name>
+	</person>
+	<person id="alexandre_abreu">
+		<name>Alexandre Abreu</name>
+	</person>
+	<person id="mauricio_machuca">
+		<name>Mauricio Machuca</name>
+	</person>
+	<person id="jean-pierre_lortie">
+		<name>Jean-Pierre Lortie</name>
+	</person>
+</people>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TeoLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="library">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="item" type="TLMedia" minOccurs="0" maxOccurs="unbounded"/>		
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:decimal"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="people">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="person" type="TLPerson" minOccurs="0" maxOccurs="unbounded"/>		
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:decimal"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="transactions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="lending" type="TLTransaction" minOccurs="0" maxOccurs="unbounded"/>		
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:decimal"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="TLMedia">
+		<xs:sequence>
+			<xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<!-- <xs:element name="status" type="xs:string" minOccurs="0" maxOccurs="1"/> -->
+			<xs:element name="quality" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="note" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID"/>
+		<xs:attribute name="type" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="TLPerson">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="phone" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="note" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID"/>
+	</xs:complexType>
+	<xs:complexType name="TLTransaction">
+		<xs:sequence>
+			<xs:element name="item" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="borrower" type="xs:string" minOccurs="1" maxOccurs="1"/>	
+			<xs:element name="lendingDate" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="returnDate" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="note" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID"/>
+	</xs:complexType>
+</xs:schema>

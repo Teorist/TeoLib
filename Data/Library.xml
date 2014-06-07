@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BibliTeo.xsd" version="1.0">
+ <item type="DVD" id="dvd_sherlock_holmes">
+	<title>Sherlock Holmes</title>
+ </item>
+ <item type="DVD" id="dvd_serie_dune">
+	<title>Serie: Dune</title>
+ </item>
+ <item type="DVD" id="dvd_serie_children_of_dune">
+	<title>Serie: Children of Dune</title>
+ </item>
+ <item type="DVD" id="dvd_shaun_of_the_dead">
+	<title>Shaun of the Dead</title>
+ </item>
+ <item type="DVD" id="dvd_hot_fuzz">
+	<title>Hot Fuzz</title>
+ </item>
+ <item type="DVD" id="dvd_the_men_who_stare_at_goats">
+	<title>The Men Who Stare at Goats</title>
+ </item>
+ <item type="DVD" id="dvd_office_space">
+	<title>Office Space</title>
+ </item>
+ <item type="DVD" id="dvd_the_forge_hidden_dimension_of_core_conditioning">
+	<title>The Forge: Hidden Dimension of Core Conditioning</title>
+ </item>
+ <item type="DVD" id="dvd_super_troopers">
+	<title>Super Troopers</title>
+ </item>
+</library>
